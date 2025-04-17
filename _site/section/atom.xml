@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://baraka24.github.io/first-cecil-project/section/</id>
+  <title>Bienvennue sur notre - Section</title>
+  <subtitle><![CDATA[Site description.]]></subtitle>
+  <link href="https://baraka24.github.io/first-cecil-project/section/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://baraka24.github.io/first-cecil-project/section/" rel="alternate" type="text/html" />
+  <updated>2025-04-11T20:22:01+00:00</updated>
+  <author>
+    <name>Baraka</name>
+    <uri>https://github.com/Baraka24/</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/section/page-2/</id>
+    <title>Page 2</title>
+    <content type="html">
+      <![CDATA[<h1 id="page-2">Page 2</h1>
+<h1 id="rџЋ-blog-d-une-G-c-tudiante-de-l-uac-butembo">🎓 Blog d'une étudiante de l'UAC Butembo</h1>
+<p>Salut ! Je m'appelle <strong>[Ton Prénom]</strong>, étudiante à l'<strong>Université de l'Avenir du Congo (UAC)</strong> à Butembo, en faculté d'Informatique de gestion. Ce blog est mon petit espace numérique où je partage mes découvertes, projets, et réflexions sur le monde de la tech 💻.</p>
+<hr />
+<h2 id="rџ-Ў-mes-passions">💡 Mes passions</h2>
+<p>Depuis que j'ai découvert l'informatique, je suis fascinée par :</p>
+<ul>
+<li>La programmation (surtout en Python et JavaScript 🐍✨)</li>
+<li>Les bases de données</li>
+<li>Le développement web</li>
+<li>L'intelligence artificielle (un jour, pourquoi pas ! 🤖)</li>
+</ul>
+<hr />
+<h2 id="rџ-pyoЏ-derniers-articles">🗓️ Derniers articles</h2>
+<p>👉 <a href="posts/cecil-debut/">Comment j'ai créé mon premier site avec Cecil</a><br />
+👉 <a href="posts/coder-la-nuit/">Pourquoi j'aime coder tard la nuit 🌙</a><br />
+👉 <a href="posts/outils-etudiants/">Top 5 des outils gratuits pour les étudiants développeurs</a></p>
+<hr />
+<h2 id="rџ-me-contacter">📬 Me contacter</h2>
+<p>Une question ou une idée à partager ? Tu peux me retrouver :</p>
+<ul>
+<li>Par email : <code>ton.email@exemple.com</code></li>
+<li>Ou sur GitHub : <a href="https://github.com/tonpseudo" rel="noopener noreferrer nofollow">@tonpseudo</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><em>&quot;Rien ne vaut une ligne de code qui fonctionne.&quot;</em> — Moi, probablement à 3h du matin 😄</p>
+</blockquote>
+<p>✅ Conseils supplémentaires
+Tu peux créer les fichiers pour tes articles dans le dossier pages/posts/</p>
+<p>Par exemple : pages/posts/cecil-debut.md, pages/posts/coder-la-nuit.md etc.</p>
+<p>Et personnaliser les couleurs, le thème, et les images selon ton style.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/section/page-2/" rel="alternate" type="text/html" />
+    <published>2025-04-11T20:22:01+00:00</published>
+    <updated>2025-04-11T20:22:01+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/section/page-1/</id>
+    <title>Page 1</title>
+    <content type="html">
+      <![CDATA[<h1 id="page-1">Page 1</h1>
+<h1 id="rџЋ-blog-d-une-G-c-tudiante-de-l-uac-butembo">🎓 Blog d'une étudiante de l'UAC Butembo</h1>
+<p>Salut ! Je m'appelle <strong>[Ton Prénom]</strong>, étudiante à l'<strong>Université de l'Avenir du Congo (UAC)</strong> à Butembo, en faculté d'Informatique de gestion. Ce blog est mon petit espace numérique où je partage mes découvertes, projets, et réflexions sur le monde de la tech 💻.</p>
+<hr />
+<h2 id="rџ-Ў-mes-passions">💡 Mes passions</h2>
+<p>Depuis que j'ai découvert l'informatique, je suis fascinée par :</p>
+<ul>
+<li>La programmation (surtout en Python et JavaScript 🐍✨)</li>
+<li>Les bases de données</li>
+<li>Le développement web</li>
+<li>L'intelligence artificielle (un jour, pourquoi pas ! 🤖)</li>
+</ul>
+<hr />
+<h2 id="rџ-pyoЏ-derniers-articles">🗓️ Derniers articles</h2>
+<p>👉 <a href="posts/cecil-debut/">Comment j'ai créé mon premier site avec Cecil</a><br />
+👉 <a href="posts/coder-la-nuit/">Pourquoi j'aime coder tard la nuit 🌙</a><br />
+👉 <a href="posts/outils-etudiants/">Top 5 des outils gratuits pour les étudiants développeurs</a></p>
+<hr />
+<h2 id="rџ-me-contacter">📬 Me contacter</h2>
+<p>Une question ou une idée à partager ? Tu peux me retrouver :</p>
+<ul>
+<li>Par email : <code>ton.email@exemple.com</code></li>
+<li>Ou sur GitHub : <a href="https://github.com/tonpseudo" rel="noopener noreferrer nofollow">@tonpseudo</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><em>&quot;Rien ne vaut une ligne de code qui fonctionne.&quot;</em> — Moi, probablement à 3h du matin 😄</p>
+</blockquote>
+<p>✅ Conseils supplémentaires
+Tu peux créer les fichiers pour tes articles dans le dossier pages/posts/</p>
+<p>Par exemple : pages/posts/cecil-debut.md, pages/posts/coder-la-nuit.md etc.</p>
+<p>Et personnaliser les couleurs, le thème, et les images selon ton style.est laborum.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="/about/">Link to about page</a></li>
+<li><a href="/">Link to home page</a></li>
+</ul>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/section/page-1/" rel="alternate" type="text/html" />
+    <published>2025-04-11T20:19:30+00:00</published>
+    <updated>2025-04-11T20:19:30+00:00</updated>
+  </entry>
+</feed>

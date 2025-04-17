@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://baraka24.github.io/first-cecil-project/</id>
+  <title>Bienvennue sur notre</title>
+  <subtitle><![CDATA[Site description.]]></subtitle>
+  <link href="https://baraka24.github.io/first-cecil-project/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://baraka24.github.io/first-cecil-project/" rel="alternate" type="text/html" />
+  <updated>2025-04-11T20:22:01+00:00</updated>
+  <author>
+    <name>Baraka</name>
+    <uri>https://github.com/Baraka24/</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/section/page-2/</id>
+    <title>Page 2</title>
+    <content type="html">
+      <![CDATA[<h1 id="page-2">Page 2</h1>
+<h1 id="rџЋ-blog-d-une-G-c-tudiante-de-l-uac-butembo">🎓 Blog d'une étudiante de l'UAC Butembo</h1>
+<p>Salut ! Je m'appelle <strong>[Ton Prénom]</strong>, étudiante à l'<strong>Université de l'Avenir du Congo (UAC)</strong> à Butembo, en faculté d'Informatique de gestion. Ce blog est mon petit espace numérique où je partage mes découvertes, projets, et réflexions sur le monde de la tech 💻.</p>
+<hr />
+<h2 id="rџ-Ў-mes-passions">💡 Mes passions</h2>
+<p>Depuis que j'ai découvert l'informatique, je suis fascinée par :</p>
+<ul>
+<li>La programmation (surtout en Python et JavaScript 🐍✨)</li>
+<li>Les bases de données</li>
+<li>Le développement web</li>
+<li>L'intelligence artificielle (un jour, pourquoi pas ! 🤖)</li>
+</ul>
+<hr />
+<h2 id="rџ-pyoЏ-derniers-articles">🗓️ Derniers articles</h2>
+<p>👉 <a href="posts/cecil-debut/">Comment j'ai créé mon premier site avec Cecil</a><br />
+👉 <a href="posts/coder-la-nuit/">Pourquoi j'aime coder tard la nuit 🌙</a><br />
+👉 <a href="posts/outils-etudiants/">Top 5 des outils gratuits pour les étudiants développeurs</a></p>
+<hr />
+<h2 id="rџ-me-contacter">📬 Me contacter</h2>
+<p>Une question ou une idée à partager ? Tu peux me retrouver :</p>
+<ul>
+<li>Par email : <code>ton.email@exemple.com</code></li>
+<li>Ou sur GitHub : <a href="https://github.com/tonpseudo" rel="noopener noreferrer nofollow">@tonpseudo</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><em>&quot;Rien ne vaut une ligne de code qui fonctionne.&quot;</em> — Moi, probablement à 3h du matin 😄</p>
+</blockquote>
+<p>✅ Conseils supplémentaires
+Tu peux créer les fichiers pour tes articles dans le dossier pages/posts/</p>
+<p>Par exemple : pages/posts/cecil-debut.md, pages/posts/coder-la-nuit.md etc.</p>
+<p>Et personnaliser les couleurs, le thème, et les images selon ton style.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/section/page-2/" rel="alternate" type="text/html" />
+    <published>2025-04-11T20:22:01+00:00</published>
+    <updated>2025-04-11T20:22:01+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/authoring-content/</id>
+    <title>Authoring Content</title>
+    <content type="html">
+      <![CDATA[<h1 id="authoring-content-in-markdown">Authoring Content in Markdown</h1>
+<p>Cecil supports <a href="https://cecil.app/documentation/content/#markdown" rel="noopener noreferrer nofollow">Markdown</a> syntax in <code>.md</code> files as well as <a href="https://cecil.app/documentation/content/#front-matter" rel="noopener noreferrer nofollow">front matter</a> to define variables.</p>
+<p><strong>Table of content:</strong></p>
+<div id="toc"><ul>
+<li><a href="#inline-style">Inline style</a></li>
+<li><a href="#how-to-structure-page">How to structure page</a></li>
+<li><a href="#list">List</a></li>
+<li><a href="#blockquote">Blockquote</a></li>
+<li><a href="#code-block">Code block</a></li>
+<li><a href="#there-is-a-horizontal-rule-below-this">There is a horizontal rule below this</a></li>
+<li><a href="#definition-list">Definition list</a></li>
+<li><a href="#table">Table</a></li>
+<li><a href="#notes">Notes</a></li>
+</ul></div>
+<pre><code class="language-markdown">[toc]</code></pre>
+<h2 id="inline-style">Inline style</h2>
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+<pre><code class="language-markdown">Text can be **bold**, _italic_, or ~~strikethrough~~.</code></pre>
+<p>You can <a href="/about/">link to a page</a> or <a href="/">to another page</a>.</p>
+<pre><code class="language-markdown">You can [link to a page](/about.md) or [to another page](page:index).</code></pre>
+<p>You can highlight <code>inline code</code> with backticks.</p>
+<pre><code class="language-markdown">You can highlight `inline code` with backticks.</code></pre>
+<h2 id="how-to-structure-page">How to structure page</h2>
+<p>Cecil automatically use the page file name as title, but you can also define title and other variables in the <a href="https://cecil.app/documentation/content/#front-matter" rel="noopener noreferrer nofollow">front matter</a>.</p>
+<p>You can structure content using a heading. Headings in Markdown are indicated by a number of <code>#</code> at the start of the line.</p>
+<pre><code class="language-markdown">---
+title: Page title
+description: Page short description.
+---
+
+# 🎓 Blog d'une étudiante de l'UAC Butembo
+
+Salut ! Je m'appelle **[Ton Prénom]**, étudiante à l'**Université de l'Avenir du Congo (UAC)** à Butembo, en faculté d'Informatique de gestion. Ce blog est mon petit espace numérique où je partage mes découvertes, projets, et réflexions sur le monde de la tech 💻.
+
+---
+
+## 💡 Mes passions
+
+Depuis que j'ai découvert l'informatique, je suis fascinée par :
+- La programmation (surtout en Python et JavaScript 🐍✨)
+- Les bases de données
+- Le développement web
+- L'intelligence artificielle (un jour, pourquoi pas ! 🤖)
+
+---
+
+## 🗓️ Derniers articles
+
+👉 [Comment j'ai créé mon premier site avec Cecil](posts/cecil-debut.md)  
+👉 [Pourquoi j'aime coder tard la nuit 🌙](posts/coder-la-nuit.md)  
+👉 [Top 5 des outils gratuits pour les étudiants développeurs](posts/outils-etudiants.md)
+
+---
+
+## 📬 Me contacter
+
+Une question ou une idée à partager ? Tu peux me retrouver :
+- Par email : `ton.email@exemple.com`
+- Ou sur GitHub : [@tonpseudo](https://github.com/tonpseudo)
+
+---
+
+&gt; *"Rien ne vaut une ligne de code qui fonctionne."* — Moi, probablement à 3h du matin 😄
+
+✅ Conseils supplémentaires
+Tu peux créer les fichiers pour tes articles dans le dossier pages/posts/
+
+Par exemple : pages/posts/cecil-debut.md, pages/posts/coder-la-nuit.md etc.
+
+Et personnaliser les couleurs, le thème, et les images selon ton style.
+
+## Image
+
+Images use Cecil’s built-in optimized asset support.
+
+![Cecil favicon](/favicon.png "Cecil favicon")
+
+```markdown
+![Cecil favicon](/favicon.png "Cecil favicon")</code></pre>
+<p>Cecil search images in <code>assets/</code> and <code>static/</code> folders, but relative path is also supported:</p>
+<pre><code class="language-markdown">![Cecil favicon](../assets/favicon.png "Cecil favicon")</code></pre>
+<h2 id="list">List</h2>
+<ul>
+<li>Unordered list</li>
+<li>Unordered list</li>
+<li>Unordered list</li>
+</ul>
+<ol>
+<li>Ordered list</li>
+<li>Ordered list</li>
+<li>Ordered list</li>
+</ol>
+<ul>
+<li>Level 1
+<ul>
+<li>Level 2</li>
+<li>Level 2</li>
+<li>Level 3</li>
+<li>Level 3</li>
+</ul></li>
+</ul>
+<h2 id="blockquote">Blockquote</h2>
+<blockquote>
+<p>This is a blockquote, which is commonly used when quoting another person or document.</p>
+<p>Blockquotes are indicated by a <code>&gt;</code> at the start of each line.</p>
+</blockquote>
+<pre><code class="language-markdown">&gt; This is a blockquote, which is commonly used when quoting another person or document.
+&gt;
+&gt; Blockquotes are indicated by a `&gt;` at the start of each line.</code></pre>
+<h2 id="code-block">Code block</h2>
+<p>A code block is indicated by a block with three backticks <code>```</code> at the start and end. You can indicate the programming language being used after the opening backticks.</p>
+<pre><code class="language-php">// PHP code
+$config = [
+    'title'   =&gt; "My website",
+    'baseurl' =&gt; 'http://localhost:8000/',
+];
+
+Builder::create($config)-&gt;build();</code></pre>
+<pre>
+```php
+// PHP code
+$config = [
+    'title'   =&gt; "My website",
+    'baseurl' =&gt; 'http://localhost:8000/',
+];
+
+Builder::create($config)-&gt;build();
+```
+</pre>
+<h2 id="there-is-a-horizontal-rule-below-this">There is a horizontal rule below this</h2>
+<hr />
+<h2 id="definition-list">Definition list</h2>
+<dl>
+<dt>First Term</dt>
+<dd>This is the definition of the first term.</dd>
+<dt>Second Term</dt>
+<dd>This is one definition of the second term.</dd>
+<dd>This is another definition of the second term.</dd>
+</dl>
+<h2 id="table">Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Head 1</th>
+<th style="text-align: left;">Head 2</th>
+<th style="text-align: left;">Head 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">ok</td>
+<td style="text-align: left;">good swedish fish</td>
+<td style="text-align: left;">nice</td>
+</tr>
+<tr>
+<td style="text-align: left;">out of stock</td>
+<td style="text-align: left;">good and plenty</td>
+<td style="text-align: left;">nice</td>
+</tr>
+<tr>
+<td style="text-align: left;">ok</td>
+<td style="text-align: left;">good <code>oreos</code></td>
+<td style="text-align: left;">hmm</td>
+</tr>
+<tr>
+<td style="text-align: left;">ok</td>
+<td style="text-align: left;">good <code>zoute</code> drop</td>
+<td style="text-align: left;">yumm</td>
+</tr>
+</tbody>
+</table>
+<h2 id="notes">Notes</h2>
+<aside class="note"><p>empty</p></aside>
+<aside class="note note-info"><p>info</p></aside>
+<aside class="note note-tip"><p>tip</p></aside>
+<aside class="note note-important"><p>important</p></aside>
+<aside class="note note-warning"><p>warning</p></aside>
+<aside class="note note-caution"><p>caution</p></aside>
+<pre><code class="language-markdown">:::info|tip|important|warning|caution
+Note here.
+:::</code></pre>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/authoring-content/" rel="alternate" type="text/html" />
+    <published>2025-04-11T20:21:15+00:00</published>
+    <updated>2025-04-11T20:21:15+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/section/page-1/</id>
+    <title>Page 1</title>
+    <content type="html">
+      <![CDATA[<h1 id="page-1">Page 1</h1>
+<h1 id="rџЋ-blog-d-une-G-c-tudiante-de-l-uac-butembo">🎓 Blog d'une étudiante de l'UAC Butembo</h1>
+<p>Salut ! Je m'appelle <strong>[Ton Prénom]</strong>, étudiante à l'<strong>Université de l'Avenir du Congo (UAC)</strong> à Butembo, en faculté d'Informatique de gestion. Ce blog est mon petit espace numérique où je partage mes découvertes, projets, et réflexions sur le monde de la tech 💻.</p>
+<hr />
+<h2 id="rџ-Ў-mes-passions">💡 Mes passions</h2>
+<p>Depuis que j'ai découvert l'informatique, je suis fascinée par :</p>
+<ul>
+<li>La programmation (surtout en Python et JavaScript 🐍✨)</li>
+<li>Les bases de données</li>
+<li>Le développement web</li>
+<li>L'intelligence artificielle (un jour, pourquoi pas ! 🤖)</li>
+</ul>
+<hr />
+<h2 id="rџ-pyoЏ-derniers-articles">🗓️ Derniers articles</h2>
+<p>👉 <a href="posts/cecil-debut/">Comment j'ai créé mon premier site avec Cecil</a><br />
+👉 <a href="posts/coder-la-nuit/">Pourquoi j'aime coder tard la nuit 🌙</a><br />
+👉 <a href="posts/outils-etudiants/">Top 5 des outils gratuits pour les étudiants développeurs</a></p>
+<hr />
+<h2 id="rџ-me-contacter">📬 Me contacter</h2>
+<p>Une question ou une idée à partager ? Tu peux me retrouver :</p>
+<ul>
+<li>Par email : <code>ton.email@exemple.com</code></li>
+<li>Ou sur GitHub : <a href="https://github.com/tonpseudo" rel="noopener noreferrer nofollow">@tonpseudo</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><em>&quot;Rien ne vaut une ligne de code qui fonctionne.&quot;</em> — Moi, probablement à 3h du matin 😄</p>
+</blockquote>
+<p>✅ Conseils supplémentaires
+Tu peux créer les fichiers pour tes articles dans le dossier pages/posts/</p>
+<p>Par exemple : pages/posts/cecil-debut.md, pages/posts/coder-la-nuit.md etc.</p>
+<p>Et personnaliser les couleurs, le thème, et les images selon ton style.est laborum.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="/about/">Link to about page</a></li>
+<li><a href="/">Link to home page</a></li>
+</ul>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/section/page-1/" rel="alternate" type="text/html" />
+    <published>2025-04-11T20:19:30+00:00</published>
+    <updated>2025-04-11T20:19:30+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/about/</id>
+    <title>About</title>
+    <content type="html">
+      <![CDATA[<h1 id="about">About</h1>
+<p>Cecil is a CLI application, powered by <a href="https://www.php.net/" rel="noopener noreferrer nofollow">PHP</a>, that merge plain text files (written in <a href="https://daringfireball.net/projects/markdown/" rel="noopener noreferrer nofollow">Markdown</a>), images and <a href="https://twig.symfony.com/" rel="noopener noreferrer nofollow">Twig</a> templates to generate a <a href="https://en.wikipedia.org/wiki/Static_web_page" rel="noopener noreferrer nofollow">static website</a>.</p>
+<p><a href="../">Back home</a></p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/about/" rel="alternate" type="text/html" />
+    <published>2025-01-11T07:26:04+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/blog/post-6/</id>
+    <title>Post 6</title>
+    <content type="html">
+      <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus non enim sed maximus. Phasellus in accumsan nibh, at mollis nibh. Nunc id leo venenatis, pellentesque odio sit amet, lobortis augue. Sed hendrerit vulputate quam, quis dictum est molestie ac. In convallis urna sit amet dolor semper vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- break -->
+<p>Fusce ut sodales risus, ut dictum libero. Aliquam erat volutpat. Mauris malesuada consequat ultrices. Duis vulputate eget tellus aliquam aliquam. Proin vulputate mi vitae neque ornare, ac convallis odio venenatis. Suspendisse nec tempus felis. Nunc eget tincidunt nibh, nec varius turpis. Vivamus ullamcorper nisi sed molestie mollis.</p>
+<p>Donec facilisis consequat urna, quis semper nisi ultrices vitae. Etiam malesuada ligula in accumsan posuere. Morbi ac ante consequat, vulputate nibh et, malesuada orci. Maecenas eget tristique dui. Aenean id urna pharetra, sollicitudin velit quis, varius erat. Quisque sed justo lobortis, volutpat eros in, viverra erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac magna eget massa tristique elementum. Mauris quis nisl id nisl maximus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna tortor, sodales in lacus in, condimentum varius nulla. Phasellus faucibus felis nec augue dictum, sit amet condimentum dui pulvinar. Praesent nec suscipit arcu, ut aliquet erat. Maecenas sollicitudin porta elit eget fringilla. Pellentesque venenatis tortor dignissim diam malesuada condimentum.</p>
+<p>Suspendisse interdum neque quis diam luctus lobortis. Etiam condimentum et tortor eu volutpat. Pellentesque at congue metus. Pellentesque blandit bibendum dolor sit amet vulputate. Aliquam nunc dolor, condimentum sit amet dapibus vitae, faucibus in lorem. Aliquam fringilla tincidunt metus. Etiam ultrices nulla vel purus gravida, non pharetra ipsum auctor. Mauris suscipit mauris vitae facilisis tempus. Praesent laoreet purus vitae est pharetra lacinia. Nullam sodales eu eros et placerat. Vestibulum quis mattis lacus, a facilisis turpis. Nulla non volutpat nisi. Sed tincidunt luctus nisi. Ut vel purus tortor.</p>
+<p>Quisque facilisis consectetur augue id sodales. Aliquam interdum scelerisque tortor quis hendrerit. In laoreet convallis urna, et auctor arcu varius quis. Nullam consequat dolor nec malesuada eleifend. Quisque egestas purus vel lorem scelerisque, et tincidunt sapien volutpat. Sed nec scelerisque neque, ut molestie velit. Mauris vitae tristique ex. Nunc lacinia justo eros, eget gravida ante fermentum ut. Morbi at porttitor quam, non imperdiet tellus.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/blog/post-6/" rel="alternate" type="text/html" />
+    <published>2022-09-06T00:00:00+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/blog/post-5/</id>
+    <title>Post 5</title>
+    <content type="html">
+      <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus non enim sed maximus. Phasellus in accumsan nibh, at mollis nibh. Nunc id leo venenatis, pellentesque odio sit amet, lobortis augue. Sed hendrerit vulputate quam, quis dictum est molestie ac. In convallis urna sit amet dolor semper vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- break -->
+<p>Fusce ut sodales risus, ut dictum libero. Aliquam erat volutpat. Mauris malesuada consequat ultrices. Duis vulputate eget tellus aliquam aliquam. Proin vulputate mi vitae neque ornare, ac convallis odio venenatis. Suspendisse nec tempus felis. Nunc eget tincidunt nibh, nec varius turpis. Vivamus ullamcorper nisi sed molestie mollis.</p>
+<p>Donec facilisis consequat urna, quis semper nisi ultrices vitae. Etiam malesuada ligula in accumsan posuere. Morbi ac ante consequat, vulputate nibh et, malesuada orci. Maecenas eget tristique dui. Aenean id urna pharetra, sollicitudin velit quis, varius erat. Quisque sed justo lobortis, volutpat eros in, viverra erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac magna eget massa tristique elementum. Mauris quis nisl id nisl maximus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna tortor, sodales in lacus in, condimentum varius nulla. Phasellus faucibus felis nec augue dictum, sit amet condimentum dui pulvinar. Praesent nec suscipit arcu, ut aliquet erat. Maecenas sollicitudin porta elit eget fringilla. Pellentesque venenatis tortor dignissim diam malesuada condimentum.</p>
+<p>Suspendisse interdum neque quis diam luctus lobortis. Etiam condimentum et tortor eu volutpat. Pellentesque at congue metus. Pellentesque blandit bibendum dolor sit amet vulputate. Aliquam nunc dolor, condimentum sit amet dapibus vitae, faucibus in lorem. Aliquam fringilla tincidunt metus. Etiam ultrices nulla vel purus gravida, non pharetra ipsum auctor. Mauris suscipit mauris vitae facilisis tempus. Praesent laoreet purus vitae est pharetra lacinia. Nullam sodales eu eros et placerat. Vestibulum quis mattis lacus, a facilisis turpis. Nulla non volutpat nisi. Sed tincidunt luctus nisi. Ut vel purus tortor.</p>
+<p>Quisque facilisis consectetur augue id sodales. Aliquam interdum scelerisque tortor quis hendrerit. In laoreet convallis urna, et auctor arcu varius quis. Nullam consequat dolor nec malesuada eleifend. Quisque egestas purus vel lorem scelerisque, et tincidunt sapien volutpat. Sed nec scelerisque neque, ut molestie velit. Mauris vitae tristique ex. Nunc lacinia justo eros, eget gravida ante fermentum ut. Morbi at porttitor quam, non imperdiet tellus.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/blog/post-5/" rel="alternate" type="text/html" />
+    <published>2022-09-05T00:00:00+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/blog/post-4/</id>
+    <title>Post 4</title>
+    <content type="html">
+      <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus non enim sed maximus. Phasellus in accumsan nibh, at mollis nibh. Nunc id leo venenatis, pellentesque odio sit amet, lobortis augue. Sed hendrerit vulputate quam, quis dictum est molestie ac. In convallis urna sit amet dolor semper vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- break -->
+<p>Fusce ut sodales risus, ut dictum libero. Aliquam erat volutpat. Mauris malesuada consequat ultrices. Duis vulputate eget tellus aliquam aliquam. Proin vulputate mi vitae neque ornare, ac convallis odio venenatis. Suspendisse nec tempus felis. Nunc eget tincidunt nibh, nec varius turpis. Vivamus ullamcorper nisi sed molestie mollis.</p>
+<p>Donec facilisis consequat urna, quis semper nisi ultrices vitae. Etiam malesuada ligula in accumsan posuere. Morbi ac ante consequat, vulputate nibh et, malesuada orci. Maecenas eget tristique dui. Aenean id urna pharetra, sollicitudin velit quis, varius erat. Quisque sed justo lobortis, volutpat eros in, viverra erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac magna eget massa tristique elementum. Mauris quis nisl id nisl maximus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna tortor, sodales in lacus in, condimentum varius nulla. Phasellus faucibus felis nec augue dictum, sit amet condimentum dui pulvinar. Praesent nec suscipit arcu, ut aliquet erat. Maecenas sollicitudin porta elit eget fringilla. Pellentesque venenatis tortor dignissim diam malesuada condimentum.</p>
+<p>Suspendisse interdum neque quis diam luctus lobortis. Etiam condimentum et tortor eu volutpat. Pellentesque at congue metus. Pellentesque blandit bibendum dolor sit amet vulputate. Aliquam nunc dolor, condimentum sit amet dapibus vitae, faucibus in lorem. Aliquam fringilla tincidunt metus. Etiam ultrices nulla vel purus gravida, non pharetra ipsum auctor. Mauris suscipit mauris vitae facilisis tempus. Praesent laoreet purus vitae est pharetra lacinia. Nullam sodales eu eros et placerat. Vestibulum quis mattis lacus, a facilisis turpis. Nulla non volutpat nisi. Sed tincidunt luctus nisi. Ut vel purus tortor.</p>
+<p>Quisque facilisis consectetur augue id sodales. Aliquam interdum scelerisque tortor quis hendrerit. In laoreet convallis urna, et auctor arcu varius quis. Nullam consequat dolor nec malesuada eleifend. Quisque egestas purus vel lorem scelerisque, et tincidunt sapien volutpat. Sed nec scelerisque neque, ut molestie velit. Mauris vitae tristique ex. Nunc lacinia justo eros, eget gravida ante fermentum ut. Morbi at porttitor quam, non imperdiet tellus.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/blog/post-4/" rel="alternate" type="text/html" />
+    <published>2022-09-04T00:00:00+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/blog/post-3/</id>
+    <title>Post 3</title>
+    <content type="html">
+      <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus non enim sed maximus. Phasellus in accumsan nibh, at mollis nibh. Nunc id leo venenatis, pellentesque odio sit amet, lobortis augue. Sed hendrerit vulputate quam, quis dictum est molestie ac. In convallis urna sit amet dolor semper vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- break -->
+<p>Fusce ut sodales risus, ut dictum libero. Aliquam erat volutpat. Mauris malesuada consequat ultrices. Duis vulputate eget tellus aliquam aliquam. Proin vulputate mi vitae neque ornare, ac convallis odio venenatis. Suspendisse nec tempus felis. Nunc eget tincidunt nibh, nec varius turpis. Vivamus ullamcorper nisi sed molestie mollis.</p>
+<p>Donec facilisis consequat urna, quis semper nisi ultrices vitae. Etiam malesuada ligula in accumsan posuere. Morbi ac ante consequat, vulputate nibh et, malesuada orci. Maecenas eget tristique dui. Aenean id urna pharetra, sollicitudin velit quis, varius erat. Quisque sed justo lobortis, volutpat eros in, viverra erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac magna eget massa tristique elementum. Mauris quis nisl id nisl maximus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna tortor, sodales in lacus in, condimentum varius nulla. Phasellus faucibus felis nec augue dictum, sit amet condimentum dui pulvinar. Praesent nec suscipit arcu, ut aliquet erat. Maecenas sollicitudin porta elit eget fringilla. Pellentesque venenatis tortor dignissim diam malesuada condimentum.</p>
+<p>Suspendisse interdum neque quis diam luctus lobortis. Etiam condimentum et tortor eu volutpat. Pellentesque at congue metus. Pellentesque blandit bibendum dolor sit amet vulputate. Aliquam nunc dolor, condimentum sit amet dapibus vitae, faucibus in lorem. Aliquam fringilla tincidunt metus. Etiam ultrices nulla vel purus gravida, non pharetra ipsum auctor. Mauris suscipit mauris vitae facilisis tempus. Praesent laoreet purus vitae est pharetra lacinia. Nullam sodales eu eros et placerat. Vestibulum quis mattis lacus, a facilisis turpis. Nulla non volutpat nisi. Sed tincidunt luctus nisi. Ut vel purus tortor.</p>
+<p>Quisque facilisis consectetur augue id sodales. Aliquam interdum scelerisque tortor quis hendrerit. In laoreet convallis urna, et auctor arcu varius quis. Nullam consequat dolor nec malesuada eleifend. Quisque egestas purus vel lorem scelerisque, et tincidunt sapien volutpat. Sed nec scelerisque neque, ut molestie velit. Mauris vitae tristique ex. Nunc lacinia justo eros, eget gravida ante fermentum ut. Morbi at porttitor quam, non imperdiet tellus.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/blog/post-3/" rel="alternate" type="text/html" />
+    <published>2022-09-03T00:00:00+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/blog/post-2/</id>
+    <title>Post 2</title>
+    <content type="html">
+      <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus non enim sed maximus. Phasellus in accumsan nibh, at mollis nibh. Nunc id leo venenatis, pellentesque odio sit amet, lobortis augue. Sed hendrerit vulputate quam, quis dictum est molestie ac. In convallis urna sit amet dolor semper vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- break -->
+<p>Fusce ut sodales risus, ut dictum libero. Aliquam erat volutpat. Mauris malesuada consequat ultrices. Duis vulputate eget tellus aliquam aliquam. Proin vulputate mi vitae neque ornare, ac convallis odio venenatis. Suspendisse nec tempus felis. Nunc eget tincidunt nibh, nec varius turpis. Vivamus ullamcorper nisi sed molestie mollis.</p>
+<p>Donec facilisis consequat urna, quis semper nisi ultrices vitae. Etiam malesuada ligula in accumsan posuere. Morbi ac ante consequat, vulputate nibh et, malesuada orci. Maecenas eget tristique dui. Aenean id urna pharetra, sollicitudin velit quis, varius erat. Quisque sed justo lobortis, volutpat eros in, viverra erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac magna eget massa tristique elementum. Mauris quis nisl id nisl maximus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna tortor, sodales in lacus in, condimentum varius nulla. Phasellus faucibus felis nec augue dictum, sit amet condimentum dui pulvinar. Praesent nec suscipit arcu, ut aliquet erat. Maecenas sollicitudin porta elit eget fringilla. Pellentesque venenatis tortor dignissim diam malesuada condimentum.</p>
+<p>Suspendisse interdum neque quis diam luctus lobortis. Etiam condimentum et tortor eu volutpat. Pellentesque at congue metus. Pellentesque blandit bibendum dolor sit amet vulputate. Aliquam nunc dolor, condimentum sit amet dapibus vitae, faucibus in lorem. Aliquam fringilla tincidunt metus. Etiam ultrices nulla vel purus gravida, non pharetra ipsum auctor. Mauris suscipit mauris vitae facilisis tempus. Praesent laoreet purus vitae est pharetra lacinia. Nullam sodales eu eros et placerat. Vestibulum quis mattis lacus, a facilisis turpis. Nulla non volutpat nisi. Sed tincidunt luctus nisi. Ut vel purus tortor.</p>
+<p>Quisque facilisis consectetur augue id sodales. Aliquam interdum scelerisque tortor quis hendrerit. In laoreet convallis urna, et auctor arcu varius quis. Nullam consequat dolor nec malesuada eleifend. Quisque egestas purus vel lorem scelerisque, et tincidunt sapien volutpat. Sed nec scelerisque neque, ut molestie velit. Mauris vitae tristique ex. Nunc lacinia justo eros, eget gravida ante fermentum ut. Morbi at porttitor quam, non imperdiet tellus.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/blog/post-2/" rel="alternate" type="text/html" />
+    <published>2022-09-02T00:00:00+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://baraka24.github.io/first-cecil-project/blog/post-1/</id>
+    <title>Post 1</title>
+    <content type="html">
+      <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus non enim sed maximus. Phasellus in accumsan nibh, at mollis nibh. Nunc id leo venenatis, pellentesque odio sit amet, lobortis augue. Sed hendrerit vulputate quam, quis dictum est molestie ac. In convallis urna sit amet dolor semper vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- break -->
+<p>Fusce ut sodales risus, ut dictum libero. Aliquam erat volutpat. Mauris malesuada consequat ultrices. Duis vulputate eget tellus aliquam aliquam. Proin vulputate mi vitae neque ornare, ac convallis odio venenatis. Suspendisse nec tempus felis. Nunc eget tincidunt nibh, nec varius turpis. Vivamus ullamcorper nisi sed molestie mollis.</p>
+<p>Donec facilisis consequat urna, quis semper nisi ultrices vitae. Etiam malesuada ligula in accumsan posuere. Morbi ac ante consequat, vulputate nibh et, malesuada orci. Maecenas eget tristique dui. Aenean id urna pharetra, sollicitudin velit quis, varius erat. Quisque sed justo lobortis, volutpat eros in, viverra erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac magna eget massa tristique elementum. Mauris quis nisl id nisl maximus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna tortor, sodales in lacus in, condimentum varius nulla. Phasellus faucibus felis nec augue dictum, sit amet condimentum dui pulvinar. Praesent nec suscipit arcu, ut aliquet erat. Maecenas sollicitudin porta elit eget fringilla. Pellentesque venenatis tortor dignissim diam malesuada condimentum.</p>
+<p>Suspendisse interdum neque quis diam luctus lobortis. Etiam condimentum et tortor eu volutpat. Pellentesque at congue metus. Pellentesque blandit bibendum dolor sit amet vulputate. Aliquam nunc dolor, condimentum sit amet dapibus vitae, faucibus in lorem. Aliquam fringilla tincidunt metus. Etiam ultrices nulla vel purus gravida, non pharetra ipsum auctor. Mauris suscipit mauris vitae facilisis tempus. Praesent laoreet purus vitae est pharetra lacinia. Nullam sodales eu eros et placerat. Vestibulum quis mattis lacus, a facilisis turpis. Nulla non volutpat nisi. Sed tincidunt luctus nisi. Ut vel purus tortor.</p>
+<p>Quisque facilisis consectetur augue id sodales. Aliquam interdum scelerisque tortor quis hendrerit. In laoreet convallis urna, et auctor arcu varius quis. Nullam consequat dolor nec malesuada eleifend. Quisque egestas purus vel lorem scelerisque, et tincidunt sapien volutpat. Sed nec scelerisque neque, ut molestie velit. Mauris vitae tristique ex. Nunc lacinia justo eros, eget gravida ante fermentum ut. Morbi at porttitor quam, non imperdiet tellus.</p>]]>
+    </content>
+    <link href="https://baraka24.github.io/first-cecil-project/blog/post-1/" rel="alternate" type="text/html" />
+    <published>2022-09-01T00:00:00+00:00</published>
+    <updated>2025-01-11T07:26:04+00:00</updated>
+  </entry>
+</feed>
